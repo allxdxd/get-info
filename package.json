@@ -1,0 +1,24 @@
+{
+  "name": "getdata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allxdxd/get-info.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allxdxd/get-info/issues"
+  },
+  "homepage": "https://github.com/allxdxd/get-info#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ua-parser-js": "^1.0.2"
+  }
+}

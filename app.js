@@ -9,4 +9,4 @@ app.post('/send', function (req, res) {
   console.log(ua);
 });
 
-app.listen(3000, ()=>{console.log("It's runnig");});
+app.listen(process.env.PORT || 3000, ()=>{console.log("It's runnig");});
